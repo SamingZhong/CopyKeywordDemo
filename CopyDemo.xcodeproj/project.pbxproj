@@ -7,11 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A2E32781C3229D300E064B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E32771C3229D300E064B1 /* main.m */; };
+		0A2E327C1C3229E000E064B1 /* ZXMBlockExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E326F1C3229AC00E064B1 /* ZXMBlockExecutor.m */; };
+		0A2E32851C3236CC00E064B1 /* NSObject+ZXM_RunAtDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E32841C3236CC00E064B1 /* NSObject+ZXM_RunAtDealloc.m */; };
+		0A2E32881C323EFC00E064B1 /* ClassZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E32861C323EFC00E064B1 /* ClassZ.m */; };
 		0A307F5C1C30F57E0051E6AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A307F5B1C30F57D0051E6AE /* main.m */; };
 		0A307F641C30F5A20051E6AE /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A307F631C30F5A20051E6AE /* ClassA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0A2E32731C3229D300E064B1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		0A307F561C30F57D0051E6AE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -24,6 +37,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A2E326E1C3229AC00E064B1 /* ZXMBlockExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZXMBlockExecutor.h; path = ../CopyDemo/ZXMBlockExecutor.h; sourceTree = "<group>"; };
+		0A2E326F1C3229AC00E064B1 /* ZXMBlockExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZXMBlockExecutor.m; path = ../CopyDemo/ZXMBlockExecutor.m; sourceTree = "<group>"; };
+		0A2E32751C3229D300E064B1 /* weakStore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = weakStore; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2E32771C3229D300E064B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A2E32831C3236CC00E064B1 /* NSObject+ZXM_RunAtDealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZXM_RunAtDealloc.h"; sourceTree = "<group>"; };
+		0A2E32841C3236CC00E064B1 /* NSObject+ZXM_RunAtDealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZXM_RunAtDealloc.m"; sourceTree = "<group>"; };
+		0A2E32861C323EFC00E064B1 /* ClassZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassZ.m; sourceTree = "<group>"; };
+		0A2E32871C323EFC00E064B1 /* ClassZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassZ.h; sourceTree = "<group>"; };
 		0A307F581C30F57D0051E6AE /* CopyDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CopyDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A307F5B1C30F57D0051E6AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A307F621C30F5A20051E6AE /* ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
@@ -31,6 +52,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0A2E32721C3229D300E064B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0A307F551C30F57D0051E6AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,10 +69,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A2E32761C3229D300E064B1 /* weakStore */ = {
+			isa = PBXGroup;
+			children = (
+				0A2E326E1C3229AC00E064B1 /* ZXMBlockExecutor.h */,
+				0A2E326F1C3229AC00E064B1 /* ZXMBlockExecutor.m */,
+				0A2E32771C3229D300E064B1 /* main.m */,
+				0A2E32861C323EFC00E064B1 /* ClassZ.m */,
+				0A2E32871C323EFC00E064B1 /* ClassZ.h */,
+				0A2E32831C3236CC00E064B1 /* NSObject+ZXM_RunAtDealloc.h */,
+				0A2E32841C3236CC00E064B1 /* NSObject+ZXM_RunAtDealloc.m */,
+			);
+			path = weakStore;
+			sourceTree = "<group>";
+		};
 		0A307F4F1C30F57D0051E6AE = {
 			isa = PBXGroup;
 			children = (
 				0A307F5A1C30F57D0051E6AE /* CopyDemo */,
+				0A2E32761C3229D300E064B1 /* weakStore */,
 				0A307F591C30F57D0051E6AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				0A307F581C30F57D0051E6AE /* CopyDemo */,
+				0A2E32751C3229D300E064B1 /* weakStore */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +114,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0A2E32741C3229D300E064B1 /* weakStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2E32791C3229D300E064B1 /* Build configuration list for PBXNativeTarget "weakStore" */;
+			buildPhases = (
+				0A2E32711C3229D300E064B1 /* Sources */,
+				0A2E32721C3229D300E064B1 /* Frameworks */,
+				0A2E32731C3229D300E064B1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weakStore;
+			productName = weakStore;
+			productReference = 0A2E32751C3229D300E064B1 /* weakStore */;
+			productType = "com.apple.product-type.tool";
+		};
 		0A307F571C30F57D0051E6AE /* CopyDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A307F5F1C30F57E0051E6AE /* Build configuration list for PBXNativeTarget "CopyDemo" */;
@@ -96,6 +157,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zhongxm;
 				TargetAttributes = {
+					0A2E32741C3229D300E064B1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					0A307F571C30F57D0051E6AE = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -114,11 +178,23 @@
 			projectRoot = "";
 			targets = (
 				0A307F571C30F57D0051E6AE /* CopyDemo */,
+				0A2E32741C3229D300E064B1 /* weakStore */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0A2E32711C3229D300E064B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2E32781C3229D300E064B1 /* main.m in Sources */,
+				0A2E327C1C3229E000E064B1 /* ZXMBlockExecutor.m in Sources */,
+				0A2E32851C3236CC00E064B1 /* NSObject+ZXM_RunAtDealloc.m in Sources */,
+				0A2E32881C323EFC00E064B1 /* ClassZ.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0A307F541C30F57D0051E6AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -131,6 +207,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0A2E327A1C3229D300E064B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A2E327B1C3229D300E064B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0A307F5D1C30F57E0051E6AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -227,6 +317,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0A2E32791C3229D300E064B1 /* Build configuration list for PBXNativeTarget "weakStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2E327A1C3229D300E064B1 /* Debug */,
+				0A2E327B1C3229D300E064B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		0A307F531C30F57D0051E6AE /* Build configuration list for PBXProject "CopyDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -243,6 +341,7 @@
 				0A307F611C30F57E0051E6AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

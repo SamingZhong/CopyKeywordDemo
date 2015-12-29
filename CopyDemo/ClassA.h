@@ -25,4 +25,8 @@
  */
 - (void)test2;
 
+- (void)crashTest;
+
+- (void)helloworld;
+
 @end

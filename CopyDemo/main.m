@@ -17,6 +17,8 @@ int main(int argc, const char * argv[]) {
         ClassA *a = [ClassA new];
         [a test1];
         [a test2];
+        
+        [a crashTest];
     }
     return 33;
 }

@@ -26,6 +26,7 @@
     NSLog(@"Str:%@,_sStr:%p, &_sStr:%p", _sStr,_sStr, &_sStr);
     NSLog(@"Str:%@,_cStr:%p, &_cStr:%p", _cStr,_cStr, &_cStr);
     
+//    [self helloworld];
     
     [mStr appendString:@"=========="];
     NSLog(@"修改mStr对象数据后！");
@@ -54,4 +55,15 @@
     NSLog(@"============end=================");
 
 }
+
+- (void)crashTest{
+    NSArray *array = @[@"1231", @{@"name" : @"zhongxiaoming", @"age" : @25 }];
+    NSObject *object = array[1];
+    NSLog(@"object:%@", object);
+}
+
+- (NSString *)description{
+    return @"这是calassA的描述!";
+}
+
 @end
